@@ -7,8 +7,8 @@
 
 ##  Project Overview
 This repository contains a high-performance solution for the automated classification of customer complaints. The system is designed to analyze unstructured text data and predict three key attributes simultaneously:
-1.  **Primary Category:** The main topic of the complaint (e.g., "Billing Dispute", "Customer Service").
-2.  **Secondary Category:** A more granular sub-topic (e.g., "Late Fees", "Rude Behavior").
+1.  **Primary Category:** The main topic of the complaint (e.g.,"Credit Cards" ).
+2.  **Secondary Category:** A more granular sub-topic (e.g., "Billing Dispute").
 3.  **Severity Score:** A regression score (1-5) indicating the urgency of the complaint.
 
 The solution utilizes a **Heterogeneous Ensemble** of two state-of-the-art Transformer models (**DeBERTa v3** and **RoBERTa**), trained using a multi-task learning approach and combined via weighted blending for maximum accuracy.
